@@ -1,0 +1,64 @@
+
+
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shear style  */
+.text-red{
+    color: #FF0000;
+}
+/* main section style */
+main{
+    max-width:1320px ;
+    margin: 0px auto;
+}
+section > div{
+    margin-top:120px ;
+}
+/* introduction section style start */
+.banner{
+    border-radius: 16px;
+    background-image: url("../images/bannerimg.png");
+    background-repeat: no-repeat;
+    min-height: 600px;
+    text-align: center;
+}
+.banner-text{
+    background: linear-gradient(rgba(7,2,17,1),rgba(7,2,17,.5),rgba(7,2,17,.5),rgba(7,2,17,0));
+    padding: 170px 340px;
+}
+.banner h4{
+    margin: 16px 0;
+    font-size: 32px;
+    color: white;
+}
+.banner h1{
+    margin: 0;
+    font-size: 72px;
+    color: white;
+}
+.offer h1{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 120px;
+}
+.offer p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.offer h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: #070211;
+    margin-top: 48px;
+}
+.offer img{
+    width: 800px;
+    height: 500px;
+}
