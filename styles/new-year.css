@@ -10,12 +10,31 @@
 .text-red {
     color: #FF0000;
 }
-.tmargin{
+
+.tmargin {
     margin-top: 120px;
 }
-.discription{
+
+.discription {
     font-size: 20px;
     color: #0702118d;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+.section-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.section-details{
+     font-size: 20px;
+    color: #0702118e;
 }
 
 /* main section style */
@@ -91,17 +110,19 @@ main {
 .invitation-card-text-container {
     text-align: left;
     min-height: 600px;
-    background-image: linear-gradient(to right,rgba(7,2,17,1),rgba(7,2,17,0));
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
     border-radius: 16px;
-} 
-.invitation-card-text{
+}
+
+.invitation-card-text {
     margin-left: 126px;
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 .invitation-card h1 {
     font-size: 64px;
-    
+
 }
 
 
@@ -121,22 +142,27 @@ main {
     max-height: 460px;
     margin: 68px 138px 68px 0;
 }
+
 /* details-card section */
-.details-card{
-    background-image: linear-gradient(rgba(255,0,0,.2),rgba(255,0,0,0));
+.details-card {
+    background-image: linear-gradient(rgba(255, 0, 0, .2), rgba(255, 0, 0, 0));
     min-height: 480px;
     border-radius: 16px;
 }
-.details-card-text-container{
+
+.details-card-text-container {
     padding-top: 100px;
 }
-.details-card-text-container h4{
+
+.details-card-text-container h4 {
     color: black;
 }
-.details-card-text-container h4 span{
+
+.details-card-text-container h4 span {
     color: #FF0000;
 }
- button{
+
+button {
     background-color: #FF0000;
     color: white;
     padding: 16px 32px;
@@ -146,41 +172,49 @@ main {
 }
 
 /* coming-offer-card style start */
-.coming-offer-card{
+
+.coming-offer-card {
     display: flex;
-   align-items: center;
-   min-height: 460px;
+    align-items: center;
+    min-height: 460px;
 }
-.left-column{
+
+.left-column {
     text-align: left;
 }
-.left-column h4{
-font-size: 24px;
-font-weight: 500;
-color: red;
+
+.left-column h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
 }
+
 .left-column h3 {
     font-size: 48px;
     font-weight: bold;
     color: black;
     margin: 0;
 }
-.left-column p{
+
+.left-column p {
     font-size: 20px;
     color: #0702118e;
 }
-.img-column{
-     max-width: 460px;
-     margin-left:70px ;
-     margin-right: 118px;
-     border: 12px solid red;
-     border-radius: 50%;
+
+.img-column {
+    max-width: 460px;
+    margin-left: 70px;
+    margin-right: 118px;
+    border: 12px solid red;
+    border-radius: 50%;
 }
-.img-column img{
-max-width: 360px;
-padding: 50px;
+
+.img-column img {
+    max-width: 360px;
+    padding: 50px;
 
 }
+
 .right-column h3 {
     font-size: 48px;
     font-weight: bold;
@@ -188,40 +222,55 @@ padding: 50px;
     margin: 0;
     text-align: left;
 }
-.right-column p{
+
+.right-column p {
     font-size: 20px;
     color: #0702118e;
     min-width: 276px;
 }
-.right-column-img{
+
+.right-column-img {
     text-align: left;
 }
+
 /* sale-card section style start */
-.sale-card{
+.sale-card {
     min-height: 1000px;
 }
+
 .sale-text-container h1 {
     font-size: 72px;
     font-weight: bold;
     color: #070211;
     margin: 0;
 }
+
 .sale-text-container h1 span {
     color: red;
 }
-.sale-text-container h4{
-font-size: 24px;
-font-weight: 500;
-color: red;
+
+.sale-text-container h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
 }
-.img-container{
+
+.img-container {
     margin-top: 100px;
     max-height: 660px;
     background-image: url(../images/rectangle-bar.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.discount-img{
-   margin-bottom: 280px;
-   max-width: 200px;
+
+.discount-img {
+    margin-bottom: 280px;
+    max-width: 200px;
+}
+
+/* gift item section style */
+.gift-items img{
+    margin-right: 24px;
+    margin-top: 24px;
+    max-width: 400px;
 }
