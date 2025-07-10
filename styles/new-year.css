@@ -1,64 +1,119 @@
-
-
 .merriweather-font {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* shear style  */
-.text-red{
+.text-red {
     color: #FF0000;
 }
+.tmargin{
+    margin-top: 120px;
+}
+
 /* main section style */
-main{
-    max-width:1320px ;
+main {
+    max-width: 1320px;
     margin: 0px auto;
 }
-section > div{
-    margin-top:120px ;
-}
+
 /* introduction section style start */
-.banner{
+.banner {
+    margin-top: 50px;
     border-radius: 16px;
     background-image: url("../images/bannerimg.png");
     background-repeat: no-repeat;
     min-height: 600px;
     text-align: center;
 }
-.banner-text{
-    background: linear-gradient(rgba(7,2,17,1),rgba(7,2,17,.5),rgba(7,2,17,.5),rgba(7,2,17,0));
+
+.banner-text {
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, .5), rgba(7, 2, 17, .5), rgba(7, 2, 17, 0));
+    border-radius: 16px;
     padding: 170px 340px;
 }
-.banner h4{
+
+.banner h4 {
     margin: 16px 0;
     font-size: 32px;
     color: white;
 }
-.banner h1{
+
+.banner h1 {
     margin: 0;
     font-size: 72px;
     color: white;
 }
-.offer h1{
+
+.offer h1 {
     font-size: 88px;
     font-weight: bold;
     color: #FF0000;
     margin-top: 120px;
 }
-.offer p{
+
+.offer p {
     font-size: 22px;
     font-weight: 500;
     color: #FF0000;
 }
-.offer h4{
+
+.offer h4 {
     font-size: 40px;
     font-weight: bold;
     color: #070211;
     margin-top: 48px;
 }
-.offer img{
+
+.offer img {
     width: 800px;
     height: 500px;
+}
+
+.invitation-card {
+    color: white;
+    background-image: url(../images/partyimg.png);
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.invitation-card-text-container {
+    text-align: left;
+    min-height: 600px;
+    background-image: linear-gradient(to right,rgba(7,2,17,1),rgba(7,2,17,0));
+    border-radius: 16px;
+} 
+.invitation-card-text{
+    margin-left: 126px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.invitation-card h1 {
+    font-size: 64px;
+    
+}
+
+
+.invitation-card p {
+    font-size: 18px;
+    margin-bottom: 48px;
+
+}
+
+.invitation-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.invitation-card img {
+    max-width: 320px;
+    max-height: 460px;
+    margin: 68px 138px 68px 0;
 }
