@@ -13,6 +13,10 @@
 .tmargin{
     margin-top: 120px;
 }
+.discription{
+    font-size: 20px;
+    color: #0702118d;
+}
 
 /* main section style */
 main {
@@ -191,4 +195,33 @@ padding: 50px;
 }
 .right-column-img{
     text-align: left;
+}
+/* sale-card section style start */
+.sale-card{
+    min-height: 1000px;
+}
+.sale-text-container h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #070211;
+    margin: 0;
+}
+.sale-text-container h1 span {
+    color: red;
+}
+.sale-text-container h4{
+font-size: 24px;
+font-weight: 500;
+color: red;
+}
+.img-container{
+    margin-top: 100px;
+    max-height: 660px;
+    background-image: url(../images/rectangle-bar.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.discount-img{
+   margin-bottom: 280px;
+   max-width: 200px;
 }
