@@ -140,3 +140,55 @@ main {
     margin-top: 50px;
     margin-bottom: 110px;
 }
+
+/* coming-offer-card style start */
+.coming-offer-card{
+    display: flex;
+   align-items: center;
+   min-height: 460px;
+}
+.left-column{
+    text-align: left;
+}
+.left-column h4{
+font-size: 24px;
+font-weight: 500;
+color: red;
+}
+.left-column h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.left-column p{
+    font-size: 20px;
+    color: #0702118e;
+}
+.img-column{
+     max-width: 460px;
+     margin-left:70px ;
+     margin-right: 118px;
+     border: 12px solid red;
+     border-radius: 50%;
+}
+.img-column img{
+max-width: 360px;
+padding: 50px;
+
+}
+.right-column h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(237, 7, 7);
+    margin: 0;
+    text-align: left;
+}
+.right-column p{
+    font-size: 20px;
+    color: #0702118e;
+    min-width: 276px;
+}
+.right-column-img{
+    text-align: left;
+}
