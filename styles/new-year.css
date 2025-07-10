@@ -117,3 +117,26 @@ main {
     max-height: 460px;
     margin: 68px 138px 68px 0;
 }
+/* details-card section */
+.details-card{
+    background-image: linear-gradient(rgba(255,0,0,.2),rgba(255,0,0,0));
+    min-height: 480px;
+    border-radius: 16px;
+}
+.details-card-text-container{
+    padding-top: 100px;
+}
+.details-card-text-container h4{
+    color: black;
+}
+.details-card-text-container h4 span{
+    color: #FF0000;
+}
+ button{
+    background-color: #FF0000;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
