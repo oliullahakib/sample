@@ -317,3 +317,29 @@ button {
      right: 440px;
      margin: 0;
 }
+
+/* footer section style  */
+footer{
+    background-color: #070211;
+    height: 609px;
+    color: white;
+    text-align: center;
+}
+footer hr{
+    border-color: rgba(255, 255, 255, 0.15);
+}
+.contuct-details{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1185px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+figure{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0;
+}
